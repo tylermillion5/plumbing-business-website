@@ -1,0 +1,179 @@
+/*
+red: #e30013
+red orange: #e33900
+light green: #00e35f
+blue: #0084e3
+grey: #727272
+black: #000000
+*/
+
+* {
+    box-sizing:border-box;
+}
+
+body {
+    background-color: #727272;
+    margin:0;
+    padding:0;
+    background-image:url(img/plumber.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:1920px 1080px;
+}
+.wrapper {
+    background-color:rgba(173,216,230,.7);
+    width:90%;
+    margin:0 auto;
+    max-width:960px;
+
+
+}
+
+h1 {
+    margin-top:0;
+    color: #0084e3;
+    font-family: "Raleway", sans-serif;
+}
+h2, h3 {
+    color: #e33900;
+    font-size: 24px;
+    font-family: "Indie Flower", cursive;
+}
+
+.shout {
+    font-weight:bold;
+    font-style:italic;
+    text-decoration:underline;
+    background-color:#0084e3;
+    color:black;
+}
+
+.name {
+    font-weight:bold;
+    font-style:italic;
+    text-decoration:underline;
+}
+
+.right { float:right; }
+.left { float:left; margin-right:20px; }
+.clear {clear:both; }
+
+.logos {
+    list-style-type:none;
+    margin:0; padding:0;
+    text-align:center;
+}
+
+.logos img:hover { opacity:.8; }
+
+.logos li {
+    margin:0; padding:0;
+    float:left;
+    width:33.33%;
+}
+
+img {
+    max-width:100%;
+}
+
+a { text-decoration:none; }
+a:hover, a:active { text-decoration:underline; }
+
+header {
+    background-color:rgba(0,0,0,.7);
+    padding:20px;
+    color:#0084e3;
+
+}
+
+header a, header a:visited {
+    color:#e33900;
+}
+
+header a:hover, header a:active {
+    color:black;
+}
+
+nav {
+    width:20%;
+    float:left;
+
+}
+
+main {
+    width: 80%;
+    float:left;
+    background-color:rgba(255,255,255,.7);
+    padding-left:3%;
+}
+
+footer {
+    background-color:rgba(128,128,128,.7);
+    padding: 10px;
+    text-align:center;
+}
+
+#head1 {
+    width:60%;
+    float:left;
+}
+
+#head2 {
+    width:30%;
+    text-align:center;
+    float:left;
+    border:4px solid black;
+    padding-right:1%
+}
+
+.fa-wrench {
+    font-size: 30px;
+}
+
+@media screen and (max-width:600px) {
+    /* main { background-color:red;} */
+    #head1 {
+        float:none;
+        width:100%;
+    }
+    #head2 {
+        float:none;
+        width:100%;
+        text-align:left;
+    }
+    nav {
+        float:none;
+        width:100%;
+    }
+    main {
+        float:none;
+        width:100%;
+    }
+    .right {
+        float:none;
+    }
+    .logos li {
+        float:none;
+        width:100%;
+        margin:0 auto;
+    }
+}
+
+@media print {
+    header, nav, footer {display:none; }
+    main {width:100%; }
+    img {display:none; }
+    .shout {color:black; font-weight:bold; }
+}
+
+.small-img {
+    width:200px;
+    height:auto; 
+    float:right;
+}
+
+.section-title {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 20px;
+}
