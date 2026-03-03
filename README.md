@@ -62,7 +62,6 @@ plumbing-business-website/
 ## Future Improvements
 
 * Improve navigation styling
-* Implement functional contact form
 * Enhance accessibility and SEO structure
 
 ---
@@ -70,4 +69,3 @@ plumbing-business-website/
 ## Author
 
 Tyler Million
-Aspiring IT Support / Helpdesk Professional
