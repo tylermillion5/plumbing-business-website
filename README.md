@@ -64,6 +64,7 @@ plumbing-business-website/
 
 * Improve navigation styling
 * Enhance accessibility and SEO structure
+* Adjust background changes when navigating different sections
 
 ---
 
